@@ -1,0 +1,22 @@
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10px;
+    height: 70px;
+    color: white;
+    font-weight: 200;
+    background-color: #660000;
+    border: 1px solid black;
+}
+
+.nav ul{
+    display: flex;
+    list-style: none;
+}
+.nav ul a{
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin: 0 10px;
+}
