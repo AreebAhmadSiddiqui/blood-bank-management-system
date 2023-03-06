@@ -24,7 +24,7 @@ function BloodDonationReqForm({user,id,type}) {
     const newItems = {
       userId: id,
       title: title,
-      status: "pending",
+      status: "Pending",
       amount: amount,
       description: description,
     };
