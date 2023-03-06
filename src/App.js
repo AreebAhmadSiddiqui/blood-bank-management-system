@@ -17,7 +17,7 @@ function App() {
     <BrowserRouter>
       <div className='app'>
         <Routes>
-          <Route path='/blood-bank-management-system' element={<HomePage/>} exact/>
+          <Route path='/' element={<HomePage/>} exact/>
           <Route path='/admin' element={<AdminLogin/>} />
           <Route path='/admin/:id' element={<AdminPage/>} />
           <Route path='/admin/signup' element={<AdminSignup/>} />
