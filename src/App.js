@@ -1,5 +1,5 @@
 import React from 'react'
-import { BrowserRouter,Routes,Route } from 'react-router-dom'
+import { BrowserRouter,Routes,Route, HashRouter } from 'react-router-dom'
 import HomePage from './components/HomePage'
 import DonorsLogin from './components/DonorsLogin'
 import RecipientsLogin from './components/RecipientsLogin'
@@ -14,7 +14,7 @@ import DonorsSignup from './components/DonorsSignup'
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <div className='app'>
         <Routes>
           <Route path='/' element={<HomePage/>} exact/>
@@ -32,7 +32,7 @@ function App() {
           <Route path='/recipient/:id/:type' element={<Page/>} />
         </Routes>
       </div>
-    </BrowserRouter>
+    </HashRouter>
   )
 }
 
