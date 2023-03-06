@@ -1,0 +1,29 @@
+.wrapper-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+.table {
+    border: none;
+    box-shadow: 5.2313px 10.1114px 20.123123px rgba(0, 0, 0, 0.2);
+    width: 700px;
+    height: 70px;
+    padding: 20px 10px;
+    border-radius: 10px;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-size: 1.2rem;
+}
+
+th {
+    background-color: #660000;
+    color: white;
+    height: 50px;
+}
+
+td {
+    text-align: center;
+    font-weight: bold;
+    padding: 10px 0px;
+}
