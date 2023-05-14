@@ -1,0 +1,64 @@
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10px;
+    height: 70px;
+    color: white;
+    font-weight: 200;
+    background-color: #660000;
+    border: 1px solid black;
+}
+
+.nav ul{
+    display: flex;
+    list-style: none;
+}
+.nav ul a{
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin: 0 10px;
+}
+.outer-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.homepage-container{
+    box-shadow: 5.2313px 10.1114px 20.123123px rgba(0, 0, 0, 0.2);
+    padding: 50px 50px;
+    border-radius: 10px;
+    margin-top: 5%;
+    width: 85%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    /* border: 1px solid red; */
+    flex-wrap: wrap;
+}
+.blood-group-box{
+    margin: 10px 20px;
+    height: fit-content;
+    padding: 10px 20px;
+    width: 500px;
+    height: fit-content;
+    box-shadow: 5.2313px 10.1114px 20.123123px rgba(0, 0, 0, 0.2);
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    transition: 0.2s ease-in-out;
+}
+.blood-group-box:hover{
+    transform: scale(1.01);
+}
+.blood-group-box img{
+    height: 200px;
+}
+.faq-container{
+    margin: 20px 20px;
+}
+.faq-container h4,p{
+    margin-top: 10px;
+}
